@@ -1,0 +1,249 @@
+*{
+	box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+body{
+	font: 16px/20px 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #c6c4c5;
+	background: #7e7a7d url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: "";
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+h1, h2, h3, button, time, .submenu{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h1{
+	font-size: 120px;
+	line-height: 120px;
+	letter-spacing: 18px;
+	margin-bottom: 15px;
+}
+
+h2{
+	font-size: 30px;
+	letter-spacing: 4px;
+	margin-bottom: 25px;
+	font-weight: 400;
+}
+
+a, .copyright a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.topBar{
+	margin-bottom: 180px;
+}
+
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.submenu {
+	display: none;
+	background: #e63d3d;
+	opacity: .9;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 50;
+	font-size: 60px;
+}
+
+.submenuNav{
+	max-width: 70%;
+	margin: 300px auto 0px auto;
+}
+
+.submenuNav li{
+	float: left;
+	margin-left: 4%;
+}
+
+.works a i{
+	display: block;
+	font-size: 20px;
+	margin-left: 130px;
+	margin-top: -20px;
+}
+
+.workDropdown{
+	margin-top: 34px;
+	
+}
+
+.workDropdown ul li{
+	float: none;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.workDropdown ul li a{
+	color: #f9d3d3;
+}
+	
+.submenuSocial ul{
+	max-width: 20%;
+	margin-top: 125px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.submenuSocial ul li{
+	float: left;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.menu{
+	float: right;
+	width: 70px;
+	height: 70px;
+	background: #352d2f;
+	padding-top: 28px;
+}
+
+.bar{
+	display: block;
+	width: 25px;
+	height: 2px;
+	background: #fff;
+	margin: 0px auto 4px;
+}
+
+main{
+	width: 60%;
+}
+
+.lead{
+	font-size: 26px;
+	color: #deddde;
+	line-height: 34px;
+	margin-bottom: 30px;
+}
+
+.content{
+	width: 90%;
+}
+
+main section{
+	margin-bottom: 60px;
+}
+
+main section header{
+	margin-bottom: 30px;
+}
+
+aside{
+	width: 80%;
+}
+
+aside p{
+	font-size: 18px;
+}
+
+form {
+	margin-top: 35px;
+}
+
+input{
+	font-size: 16px;
+	color: #555555;
+	width: 350px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	padding-left: 16px;
+	margin-bottom: 35px;
+}
+
+button{
+	width: 120px;
+	height: 50px;
+	background: #f63c3c;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+	vertical-align: top;
+	font-weight: 400;
+}
+
+.fa-twitter{
+	font-size: 30px;
+}
+
+.twitterTitle{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+
+.twitterFeed{
+	margin-left: 50px;
+	font-size: 14;
+	width: 350px;
+}
+
+.twitterFeed p{
+	line-height: 19px;
+	margin-bottom: 15px;
+}
+
+.twitterFeed time{
+	font-size: 16px;
+	color: #828183;
+}
+
+article.active{
+	margin-bottom: 145px;
+}
+
+.inactive{
+	display: none;
+}
+
+footer{
+	color: #959595;
+	font-size: 13px;
+	margin-bottom: 25px;
+}
+
+.copyright{
+	display: block;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.terms li a{
+	float: right;
+	color: #959595;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
